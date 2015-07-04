@@ -1,0 +1,125 @@
+@charset "utf-8";
+
+
+/* ----------------------------------------------------------------------------------------------------
+リセット
+---------------------------------------------------------------------------------------------------- */
+body,div,
+ul,ol,li,
+h1,h2,h3,
+p {
+	margin: 0;
+	padding:0;
+}
+ul,ol,li {
+	list-style: none;
+}
+img {
+	border:0;
+	vertical-align: text-bottom;
+}
+h1,h2,h3 {
+	font-weight:normal;
+}
+
+/* ----------------------------------------------------------------------------------------------------
+全ページ共有デザイン
+---------------------------------------------------------------------------------------------------- */
+body {
+	color: #000;
+	background: #FFF;
+	font-family: 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+	line-height: 1.4em;
+	text-align: center;
+	word-wrap: break-word;
+	font-size: medium;
+}
+
+a {
+	color: #4F8AC5;
+}
+
+a:hover {	
+　text-decoration: none;
+}
+
+#menu{
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 0;
+	background-color: hsla(0,0%,20%,1.00);
+}
+
+#menu li{
+display: block;
+ float: left;
+width: 16.6%;
+margin: 0;
+ padding: 0; 
+  }
+#menu li a{
+display: block;
+ padding: 12px 0 10px;
+ background: #333;
+ color: #fff;
+ text-align: center;
+ text-decoration: none;
+}
+
+#menu li a:hover{
+ background: #444;
+}
+
+#toggle{
+display: none;
+}
+
+
+#contents{
+	width: 100%;
+	
+}
+.inner {
+	width: 100%;
+	margin-top: 10px;
+	
+}
+.inner2 {
+	width: 100%;
+	max-width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: left;
+	margin-top: 10px;
+}
+    
+
+
+#header,
+#contents,
+#footer {
+	clear: both;
+}
+	
+.clear { clear:both; }  
+.clear hr { display:none; }  
+	
+#menu-box {
+	display: block;
+}
+
+#menu-box #menucover {
+	width: 100%;
+	background-color: hsla(0,0%,20%,1.00);
+	margin-right: auto;
+	margin-left: auto;
+	height: 45px;
+}
+#footer {
+	width: 100%;
+	background-color: #333333;
+	color: #FFFFFF;
+}
+#header_rogo {
+}

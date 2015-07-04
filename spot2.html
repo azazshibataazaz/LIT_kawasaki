@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>頑張れ！川崎市　kawasakicity　応援サイト</title>
+<meta name="viewport" content="width=device-width,user-scalable=no,maximum-scale=1" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js?ver=3.8.1"></script>
+<!--[if lt IE 9]>
+<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+<link rel="stylesheet" href="css/style.css">
+<!-- ※pc用のスタイル（tablet.css） -->
+<link rel="stylesheet" media="all" type="text/css" href="css/tablet.css" />
+<!-- ※タブレット用のスタイル（tablet.css） -->
+<link rel="stylesheet" media="all" type="text/css" href="css/smart.css" />
+ <!--※スマートフォン用のスタイル（smart.css）-->
+
+
+<script type="text/javascript" charset="utf-8">
+$(function(){
+  $("#toggle").click(function(){
+$("#menu").slideToggle();
+ return false;
+ });
+ $(window).resize(function(){
+var win = $(window).width();
+ var p = 480;
+ if(win > p){
+ $("#menu").show();
+ } else {
+ $("#menu").hide();
+ }
+ });
+});
+</script>
+
+<!--flexslider slider-->
+<link rel="stylesheet" href="css/flexslider.css" type="text/css" />
+<script src="js/jquery.js"></script>
+<script src="js/jquery.flexslider.js"></script>
+
+<script type="text/javascript" charset="utf-8">
+$(window).load(function() {
+$('.flexslider').flexslider();
+});
+</script>
+<!--flexslider slider-->
+
+
+</head>
+<body>
+<div id="header">
+<p><img src="img/2807918174014.jpg" width="434" height="64" alt=""/></p>
+</div>
+
+
+
+
+
+
+
+<div id="menu-box">
+<div id="menucover">
+<div id="toggle"><a href="#">menu</a></div>
+<ul id="menu" class="">
+<li><a href="index.html" in_tag="ul" kaspersky_status="skipped">Home</a></li>
+ <li><a href="spot.html" in_tag="ul" kaspersky_status="skipped">Spot</a></li>
+<li><a href="#" in_tag="ul" kaspersky_status="skipped">Spot2</a></li>
+<li><a href="https://www.facebook.com/kawasakiganbare?skip_nax_wizard=true&ref_type=logout_gear" in_tag="ul" kaspersky_status="skipped">FB</a></li>
+ <li><a href="https://twitter.com/kawasaki_pr" in_tag="ul" kaspersky_status="skipped">Twitter</a></li>
+ <li><a href="#" in_tag="ul" kaspersky_status="skipped">お問い合せ</a></li>
+</ul>
+</div>
+</div>
+
+
+<!--slider end-->  
+<!--menu end-->
+<div id="contents">
+  <div class="inner"><img src="img/midasi-izumo.jpg" width="928" height="62" alt=""/></div>
+  <div class="inner"><img src="img/izumomain.jpg" alt=""/></div>
+  <div class="inner2">縁結びで有名な島根の出雲大社には行ってみたいところだが、当方が住む神奈川県からではおいそらと簡単には行けない。時間とお金がないからだが諦めてはいけない、ＪＲ川崎駅に隣接しているラゾーナ川崎の屋上にこの出雲大社の分社が祀ってある。分社といってもほんのこじんまりとしたものだが、侮ってはいけない。効果絶大なのだ！！このラゾーナ川崎になぜ出雲大社の分社があるのかという言われは良くわからないが、どうも以前この場所にあった東芝堀川町工場内にこの神社の分社があったらしく、ラゾーナを新築するに当たり移設したようだ。　
+
+ 
+  </div>
+  
+<div class="inner"><img src="img/midashi-daishi.jpg" width="928" height="62" alt=""/></div>
+  <div class="inner"><img src="img/kawasakidaisi.jpg" alt=""/></div>
+  <div class="inner2">開創は大治3年（1128）、開基は尊賢上人、創建功徳主は平間兼乗氏であります。もろもろの災厄をことごとく消除する厄除大師として、霊験あらたかなことは、むかしから有名であります。総本山は京都東山七条にある智積院です。
+  </div>
+</div>
+<div id="footer">Copyright (C) azu.All Rights Reserved.</div>
+</body>
+</html>

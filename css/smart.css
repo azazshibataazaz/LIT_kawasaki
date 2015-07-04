@@ -1,0 +1,180 @@
+@charset "utf-8";
+#menu-box {
+}
+
+
+/*===============================================
+●smart.css  画面の横幅が480pxまで
+===============================================*/
+@media only screen and (max-width: 480px) {
+img{
+	max-width: 100%;
+	height: auto;
+	width /***/: 100%;
+　
+}
+#container{
+width:100%;
+}
+～以下、画面の横幅が480pxまでの場合のスタイル記入～
+
+
+/* ----------------------------------------------------------------------------------------------------
+
+	リセット
+
+---------------------------------------------------------------------------------------------------- */
+body,div,ul,ol,li,
+h1,h2,h3,
+p {
+	margin: 0;
+	padding:0;
+}
+ul,ol,li {
+	list-style: none;
+}
+
+
+h1,h2,h3 {
+	font-weight: normal;
+	float: left;
+}
+
+
+
+
+/* ----------------------------------------------------------------------------------------------------
+
+	全ページ共有デザイン
+
+---------------------------------------------------------------------------------------------------- */
+body {
+	color: #000;
+	background: #FFF;
+	font-family: 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+	line-height: 1.4em;
+
+	word-wrap: break-word;
+	font-size: medium;
+}
+
+a {
+	color: #4F8AC5;
+}
+a:hover {	
+　text-decoration: none;
+}
+#menu-box {
+	display: block;
+}
+
+
+/* ----------------------------------------------------------------------------------------------------
+
+toggle
+
+---------------------------------------------------------------------------------------------------- */
+
+#menu li{
+ width: 33.3%;
+ border-bottom: 1px solid #444;
+ }
+
+img{
+max-width: 100%;
+height: auto;
+width /***/:auto;　
+}
+
+/* 
+ 
+ 
+  #menu{
+ display: none;
+ }
+
+ #menu li{
+ width: 100%;
+ width: 33.3%;
+  }
+
+/* 
+ #toggle{
+display: block;
+ position: relative;
+ width: 100%;
+ background: #222;
+ }
+
+  #toggle a{
+ display: block;
+ position: relative;
+ padding: 12px 0 10px;
+ border-bottom: 1px solid #444;
+ color: #fff;
+ text-align: center;
+ text-decoration: none;
+ }
+
+  #toggle:before{
+ display: block;
+ content: "";
+ position: absolute;
+ top: 50%;
+ left: 10px;
+ width: 20px;
+  height: 20px;
+ margin-top: -10px;
+ background: #fff;
+  }
+
+  #toggle a:before, #toggle a:after{
+ display: block;
+ content: "";
+ position: absolute;
+ top: 50%;
+ left: 10px;
+ width: 20px;
+ height: 4px;
+ background: #222;
+  }
+
+  #toggle a:before{
+ margin-top: -6px;
+ }
+
+  #toggle a:after{
+  margin-top: 2px;
+ }
+
+*/
+
+#header{
+	font-size:medium;
+
+}
+
+#contents{
+	width: 100%;
+	
+}
+
+
+.inner {
+	width: 100%;
+}
+.inner2 {
+	width: 90%;
+}
+#header,
+#contents,
+#footer {
+	width: 100%;
+	clear:both;
+}
+	
+.clear { clear:both; }  
+.clear hr { display:none; }  
+
+
+}

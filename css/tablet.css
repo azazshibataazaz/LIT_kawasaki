@@ -1,0 +1,107 @@
+@charset "utf-8";
+
+/*===============================================
+●tablet.css 画面の横幅が768pxまで
+===============================================*/
+@media screen and (max-width: 768px){
+img{
+max-width: 100%;
+height: auto;
+width /***/:auto;　
+}
+#container{
+width:100%;
+}
+～以下、画面の横幅が768pxまでの場合のスタイル記入～
+
+
+/* ----------------------------------------------------------------------------------------------------
+
+	リセット
+
+---------------------------------------------------------------------------------------------------- */
+body,div,
+ul,ol,li,
+h1,h2,h3,
+p {
+	margin: 0;
+	padding:0;
+}
+ul,ol,li {
+	list-style: none;
+}
+img {
+	border:0;
+	vertical-align: text-bottom;
+}
+h1,h2,h3 {
+	font-weight:normal;
+}
+
+
+
+
+
+/* ----------------------------------------------------------------------------------------------------
+
+	全ページ共有デザイン
+
+---------------------------------------------------------------------------------------------------- */
+body {
+	color: #000;
+	background: #FFF;
+	font-family: 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+	line-height: 1.4em;
+	text-align: center;
+	word-wrap: break-word;
+	font-size: medium;
+}
+
+a {
+	color: #4F8AC5;
+}
+
+a:hover {	
+　text-decoration: none;
+}
+
+#menu li{
+ width: 33.3%;
+ border-bottom: 1px solid #444;
+ }
+
+#menu-box #menucover {
+#menu li{
+ width: 33.3%;
+ border-bottom: 1px solid #444;
+ }
+
+#menu-box #menucover {
+	height: 90px;
+}
+
+.inner {
+	width: 100%;
+}
+.inner2 {
+	width: 90%;
+}
+
+#header,
+#contents,
+#footer {
+	width: 100%;#menu li{
+ width: 33.3%;
+ border-bottom: 1px solid #444;
+ }
+
+#menu-box #menucover {
+	height: 90px;
+}
+	clear:both;
+}
+	
+.clear { clear:both; }  
+.clear hr { display:none; }  
+	
+}
